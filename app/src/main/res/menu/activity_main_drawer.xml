@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:checkable="true"
+        android:title="@string/lecturers"
+        android:id="@+id/lecturers"
+        android:icon="@drawable/ic_lecturer"/>
+
+    <item
+        android:title="@string/education">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="@string/time_table"
+                    android:icon="@drawable/time_tabel"
+                    android:id="@+id/time-table"/>
+                <item
+                    android:title="@string/register_unit"
+                    android:icon="@drawable/ic_books"
+                    android:id="@+id/register-unit"/>
+                <item
+                    android:title="@string/pass_list"
+                    android:icon="@drawable/ic_list"
+                    android:id="@+id/pass-list"/>
+                <item
+                    android:title="@string/notes"
+                    android:id="@+id/notes"
+                    android:icon="@drawable/ic_notes"/>
+            </group>
+
+        </menu>
+    </item>
+
+    <item
+        android:title="@string/finance">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="@string/fee_statement"
+                    android:icon="@drawable/ic_fee"
+                    android:id="@+id/fee-statement"/>
+                <item
+                    android:title="@string/pay_mess"
+                    android:icon="@drawable/ic_pay"
+                    android:id="@+id/pay-mess"/>
+            </group>
+
+        </menu>
+    </item>
+    <item
+        android:title="@string/notification">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="@string/university_notification"
+                    android:icon="@drawable/ic_university_notification"
+                    android:id="@+id/university-notification"/>
+                <item
+                    android:title="@string/class_notification"
+                    android:icon="@drawable/ic_class_notifications"
+                    android:id="@+id/class-notification"/>
+            </group>
+
+        </menu>
+    </item>
+
+</menu>

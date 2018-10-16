@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">TTUApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Taita Taveta University</string>
+    <string name="nav_header_subtitle">TU01-SC211-0431/2015</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="motto">Home of ideas</string>
+    <string name="students">Students</string>
+    <string name="lecturers">Lecturer</string>
+    <string name="occupation">Please select your occupation</string>
+    <string name="signInText">Please user your registration number and ID to login:</string>
+
+    <string name="reg">Registration Number:</string>
+    <string name="id">ID Number:</string>
+    <string name="login">Login</string>
+
+    <!--edacation title-->
+    <string name="education">Education</string>
+    <string name="time_table">Time table</string>
+    <string name="register_unit">Register Unit</string>
+    <string name="pass_list">Pass list</string>
+    <string name="notes">Notes</string>
+
+    <string name="finance">Finance</string>
+    <string name="fee_statement">Fee statement</string>
+    <string name="pay_mess">Pay Mess</string>
+
+    <string name="notification">Notification</string>
+    <string name="university_notification">University Notification</string>
+    <string name="class_notification">Class Notification</string>
+
+    <string name="download">Download</string>
+
+    <!-- Fragment -->
+    <string name="notes_message">Please the following button to add file</string>
+    <string name="home_fragment">Hello Home fragment</string>
+
+
+    <!--files-->
+    <string name="select_file">Select File</string>
+    <string name="upload">Upload</string>
+    <string name="no_file">No file selected</string>
+</resources>
